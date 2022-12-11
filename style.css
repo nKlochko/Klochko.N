@@ -7,6 +7,7 @@
 
 body {
    font-family: Helvetica, sans-serif;
+   font-weight: bold;
    background-color: rgba(230, 231, 231, 0.993);
    width: 100%;
    min-height: 100vh;
@@ -15,7 +16,6 @@ body {
 
 .wrapper {
    display: block;
-   font-weight: bold;
 
 }
 
@@ -34,10 +34,6 @@ body {
 }
 
 .acquaintance {
-
-   /* position: static;
-   top: 16%;
-   left: 32%; */
    position: relative;
    margin: auto;
    top: 25%;
@@ -48,16 +44,11 @@ body {
    padding: 30px;
    width: fit-content;
    border: 3px solid #0844a4;
-
-
-
-
 }
 
 h1 {
    color: #0844a4;
    pointer-events: none;
-   text-decoration: none;
 }
 
 .acquaintance__item {
@@ -84,23 +75,22 @@ h1 {
    align-items: center;
    margin-left: 45%;
    padding: 2%;
-
 }
 
 .navigation__item1 {
    color: #0844a4;
    text-decoration: none;
    border-right: 3px solid rgba(230, 231, 231, 0.993);
-   padding-right: 5%;
+   width: 80px;
 }
 
 .navigation__item1:hover {
    color: white;
-   padding: 1%;
+   width: 80px;
+   text-align: center;
    border-radius: 5mm 0 5mm 0;
    background-color: rgb(51, 51, 236);
-   border: none;
-   transform: scale(120%);
+   transform: scale(130%);
    transition: background-color 0.5s ease-out, transform 0.5s;
 }
 
@@ -109,53 +99,55 @@ h1 {
    color: #0844a4;
    text-decoration: none;
    border-right: 3px solid rgba(230, 231, 231, 0.993);
-   padding-right: 5%;
+   width: 110px;
    cursor: pointer;
 }
 
 .navigation__item2:hover {
    color: white;
-   padding: 1%;
+   width: 110px;
+   text-align: center;
    border-radius: 5mm 0 5mm 0;
    background-color: rgb(51, 51, 236);
    border: none;
-   transform: scale(120%);
+   transform: scale(130%);
    transition: background-color 0.5s ease-out, transform 0.5s;
-
-
 }
 
 .navigation__item3 {
    color: #0844a4;
    text-decoration: none;
    border-right: 3px solid rgba(230, 231, 231, 0.993);
-   padding-right: 5%;
+   width: 100px;
    cursor: pointer;
 }
 
 .navigation__item3:hover {
    color: white;
    background-color: rgb(51, 51, 236);
-   padding: 1%;
+   width: 100px;
+   text-align: center;
    border: none;
    border-radius: 5mm 0 5mm 0;
-   transform: scale(120%);
+   transform: scale(130%);
    transition: background-color 0.5s ease-out, transform 0.5s;
 }
 
 .navigation__item4 {
    color: #0844a4;
    text-decoration: none;
-   cursor: pointer
+   cursor: pointer;
+   width: 110px;
 }
 
 .navigation__item4:hover {
    color: white;
    background-color: rgb(51, 51, 236);
-   padding: 1%;
+   text-align: center;
+   width: 110px;
    border: none;
    border-radius: 5mm 0 5mm 0;
-   transform: scale(120%);
+   transform: scale(130%);
    transition: background-color 0.5s ease-out, transform 0.5s;
 }
 
@@ -188,9 +180,7 @@ h2 {
       "main1 main2 main3"
       "footer1 footer2 footer3";
    justify-content: space-around;
-
    align-items: center;
-
 }
 
 .svg {
