@@ -1,0 +1,615 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+body {
+   font-family: Helvetica, sans-serif;
+   background-color: rgba(230, 231, 231, 0.993);
+   width: 100%;
+   min-height: 100vh;
+
+}
+
+.wrapper {
+   display: block;
+   font-weight: bold;
+
+}
+
+.header {
+
+   height: 1000px;
+   margin: 1% 17% 0% 17%;
+   background: url(/img/main.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-attachment: scroll;
+   background-size: cover;
+   text-align: center;
+   line-height: 100px;
+
+}
+
+.acquaintance {
+
+   /* position: static;
+   top: 16%;
+   left: 32%; */
+   position: relative;
+   margin: auto;
+   top: 25%;
+   width: 200px;
+   height: 300px;
+   font-size: 35px;
+   text-align: center;
+   padding: 30px;
+   width: fit-content;
+   border: 3px solid #0844a4;
+
+
+
+
+}
+
+h1 {
+   color: #0844a4;
+   pointer-events: none;
+   text-decoration: none;
+}
+
+.acquaintance__item {
+   border: 1px solid none;
+   background-color: #0844a4;
+   color: white;
+   padding: 2%;
+}
+
+.main {
+   display: block;
+}
+
+.about {
+   background-color: white;
+   height: 1000px;
+   margin: 0% 17% 0% 17%;
+}
+
+.navigation {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-left: 45%;
+   padding: 2%;
+
+}
+
+.navigation__item1 {
+   color: #0844a4;
+   text-decoration: none;
+   border-right: 3px solid rgba(230, 231, 231, 0.993);
+   padding-right: 5%;
+}
+
+.navigation__item1:hover {
+   color: white;
+   padding: 1%;
+   border-radius: 5mm 0 5mm 0;
+   background-color: rgb(51, 51, 236);
+   border: none;
+   transform: scale(120%);
+   transition: background-color 0.5s ease-out, transform 0.5s;
+}
+
+
+.navigation__item2 {
+   color: #0844a4;
+   text-decoration: none;
+   border-right: 3px solid rgba(230, 231, 231, 0.993);
+   padding-right: 5%;
+   cursor: pointer;
+}
+
+.navigation__item2:hover {
+   color: white;
+   padding: 1%;
+   border-radius: 5mm 0 5mm 0;
+   background-color: rgb(51, 51, 236);
+   border: none;
+   transform: scale(120%);
+   transition: background-color 0.5s ease-out, transform 0.5s;
+
+
+}
+
+.navigation__item3 {
+   color: #0844a4;
+   text-decoration: none;
+   border-right: 3px solid rgba(230, 231, 231, 0.993);
+   padding-right: 5%;
+   cursor: pointer;
+}
+
+.navigation__item3:hover {
+   color: white;
+   background-color: rgb(51, 51, 236);
+   padding: 1%;
+   border: none;
+   border-radius: 5mm 0 5mm 0;
+   transform: scale(120%);
+   transition: background-color 0.5s ease-out, transform 0.5s;
+}
+
+.navigation__item4 {
+   color: #0844a4;
+   text-decoration: none;
+   cursor: pointer
+}
+
+.navigation__item4:hover {
+   color: white;
+   background-color: rgb(51, 51, 236);
+   padding: 1%;
+   border: none;
+   border-radius: 5mm 0 5mm 0;
+   transform: scale(120%);
+   transition: background-color 0.5s ease-out, transform 0.5s;
+}
+
+h2 {
+   position: relative;
+   top: 15%;
+   color: #0844a4;
+   font-size: 40px;
+   text-align: center;
+
+}
+
+
+.about__flex {
+   display: flex;
+   margin: 25% 2%;
+}
+
+.grid {
+   display: grid;
+   gap: 20px;
+   height: 100px;
+   width: 100%;
+   margin-left: 7%;
+   margin-top: 0;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   grid-template-areas:
+      ". header header"
+      "main1 main2 main3"
+      "footer1 footer2 footer3";
+   justify-content: space-around;
+
+   align-items: center;
+
+}
+
+.svg {
+   position: relative;
+   top: 10px;
+}
+
+.grid__item {
+   color: #606060;
+   grid-area: header;
+   justify-self: start;
+
+}
+
+.grid__item1 {
+   grid-area: main1;
+   color: #0844a4;
+   font-size: 20px;
+   text-align: center;
+
+}
+
+.grid__item2 {
+   grid-area: main2;
+   color: #0844a4;
+   font-size: 20px;
+   text-align: center;
+
+}
+
+.grid__item3 {
+   grid-area: main3;
+   color: #0844a4;
+   font-size: 20px;
+   text-align: center;
+
+}
+
+.grid__item4 {
+   grid-area: footer1;
+   text-align: center;
+   color: #606060;
+   align-items: flex-start;
+}
+
+.grid__item5 {
+   grid-area: footer2;
+   text-align: center;
+   color: #606060;
+}
+
+.grid__item6 {
+   grid-area: footer3;
+   text-align: center;
+   color: #606060;
+}
+
+.grid__img {
+   position: relative;
+   max-width: 25vh;
+   height: auto;
+   bottom: left;
+   border-radius: 12px;
+   margin: 0px;
+
+}
+
+
+.exp {
+   background-color: white;
+   height: 1000px;
+   margin: 0.1% 17% 0% 17%;
+}
+
+.expirience__flex {
+   display: flex;
+   justify-content: space-around;
+}
+
+.grid__gistogramm {
+   position: relative;
+   display: grid;
+   justify-content: center;
+   gap: 10px;
+   top: 350px;
+}
+
+.gistogramm {
+   display: flex;
+   background: conic-gradient(black 0% 0.5%, red 0.50% 40%, black 40% 40.5%, orange 40.5% 55.0%, black 55% 55.5%, green 55.5% 76.00%, black 76% 76.5%, rgb(7, 113, 252) 76.0% 0.0%);
+   border-radius: 50%;
+   width: 150px;
+   height: 150px;
+   display: flex;
+   border: 1px solid black;
+   justify-content: center;
+   justify-self: center;
+}
+
+.gistogramm:before {
+   content: '';
+   display: block;
+   border-radius: 50%;
+   background: white;
+   width: 50%;
+   height: 50%;
+   align-self: center;
+   border: 1px solid black;
+}
+
+ul {
+   display: flex;
+   list-style: none;
+   justify-content: center;
+}
+
+.gistogramm__item1 {
+   background-color: rgb(7, 113, 252);
+   border-radius: 20px;
+   border: 1px solid black;
+   padding: 10px 15px;
+   margin: 2%;
+}
+
+.gistogramm__item2 {
+   background-color: red;
+   border-radius: 20px;
+   border: 1px solid black;
+   padding: 10px 15px;
+   margin: 2%;
+
+}
+
+.gistogramm__item3 {
+   background-color: orange;
+   border-radius: 20px;
+   border: 1px solid black;
+   padding: 10px 15px;
+   margin: 2%;
+   justify-self: center;
+}
+
+.gistogramm__item4 {
+   background-color: green;
+   border-radius: 20px;
+   border: 1px solid black;
+   padding: 10px 15px;
+   margin: 2%;
+   justify-self: center;
+
+}
+
+.experience__border1 {
+   position: relative;
+   top: 350px;
+   border: 1px solid grey;
+   width: fit-content;
+}
+
+.border1__text1 {
+   padding: 10px 5px;
+   text-align: center;
+   color: #606060;
+}
+
+.border1__border {
+   border-bottom: 1px solid grey;
+   margin: 50px 80px 10px;
+   text-align: center;
+
+}
+
+.border1__text2 {
+   text-align: center;
+   padding-bottom: 20px;
+   color: #606060;
+}
+
+.experience__border2 {
+   position: relative;
+   float: right;
+   top: 350px;
+   border: 1px solid grey;
+   width: fit-content;
+}
+
+.border2__text1 {
+   padding: 10px 5px;
+   text-align: center;
+   color: #606060;
+}
+
+.border2__border {
+   border-bottom: 1px solid grey;
+   margin: 50px 80px 10px;
+   text-align: center;
+}
+
+.border2__text2 {
+   text-align: center;
+   padding-bottom: 20px;
+   color: #606060;
+}
+
+.inter {
+   background-color: white;
+   height: 1000px;
+   margin: 0.1% 17% 0% 17%;
+   align-content: center;
+}
+
+.inter__grid {
+   position: relative;
+   display: grid;
+   width: 100%;
+   height: auto;
+   grid-template-columns: 350px 100px 350px;
+   grid-template-rows: 200px 200px;
+   text-align: center;
+   top: 10%;
+   align-items: center;
+   justify-items: center;
+   justify-content: space-evenly;
+   top: 25%;
+}
+
+.img__video {
+
+   max-width: 90%;
+   border-radius: 8px;
+   grid-column: 1/2;
+   justify-self: center;
+}
+
+.inter__text1 {
+   position: relative;
+   grid-row: 2/3;
+   color: #606060;
+
+}
+
+.inter__text2 {
+   position: relative;
+   grid-column: 3/4;
+   color: #606060;
+
+}
+
+.img__football {
+   max-width: 90%;
+   border-radius: 8px;
+   grid-column: 3/4;
+   grid-row: 2/3;
+}
+
+.getint {
+   background-color: white;
+   height: 700px;
+   margin: 0.1% 17% 0% 17%;
+   position: relative;
+}
+
+.h2 {
+   position: relative;
+   top: 15%;
+   color: #0844a4;
+   font-size: 40px;
+   text-align: center;
+}
+
+.getint__h2 {
+   top: 25%;
+}
+
+.getint__h3 {
+   position: relative;
+   top: 30%;
+   text-align: center;
+   color: #606060;
+}
+
+.getint__form {
+   display: grid;
+   grid-template-columns: 200px 200px 200px;
+   grid-template-rows: 80px 50px;
+   grid-template-areas:
+      "top top top"
+      "bottom1 bottom2 bottom3";
+   margin: 30% auto;
+   font-size: 10px;
+   height: auto;
+   width: fit-content;
+
+}
+
+.form__item1 {
+   grid-area: top;
+   margin: 1%;
+}
+
+.form__item2 {
+   grid-area: bottom1;
+   margin: 2%;
+
+}
+
+.form__item3 {
+   grid-area: bottom2;
+   margin: 2%;
+
+}
+
+.form__item4 {
+   grid-area: bottom3;
+   margin: 2%;
+   color: white;
+   background-color: #0844a4;
+   font-size: 15px;
+   font-weight: bold;
+   letter-spacing: 0.5mm;
+}
+
+input {
+   border: 1px solid #0844a4;
+}
+
+
+.footer {
+   background-color: white;
+   height: 150px;
+   margin: 0.1% 17% 1% 17%;
+}
+
+.footer__block {
+   position: relative;
+   display: flex;
+   flex-wrap: nowrap;
+   align-items: center;
+   justify-content: center;
+   justify-content: space-around;
+   margin: 0% 30% 0% 30%;
+   top: 20%;
+}
+
+.block__img1 {
+   width: 10%;
+   cursor: pointer
+}
+
+.block__img1:hover {
+   transform: scale(120%);
+   transition: ease-out, transform 0.5s;
+}
+
+.block__img2 {
+   width: 10%;
+   cursor: pointer
+}
+
+.block__img2:hover {
+   transform: scale(120%);
+   transition: ease-out 1s, transform 0.5s;
+}
+
+.block__img3 {
+   width: 10%;
+   cursor: pointer;
+}
+
+.block__img3:hover {
+   transform: scale(120%);
+   transition: ease-out, transform 0.5s;
+}
+
+.company__img {
+   position: relative;
+   text-align: center;
+   top: 30%;
+}
+
+.to-top a {
+   position: relative;
+   float: right;
+   color: #0844a4;
+   cursor: pointer;
+   text-decoration: none;
+   font-size: 20px;
+   right: 20px;
+}
+
+.to-top2 a {
+   position: relative;
+   float: right;
+   color: #0844a4;
+   cursor: pointer;
+   text-decoration: none;
+   font-size: 20px;
+   top: 500px;
+   right: 20px;
+}
+
+.to-top3 {
+   position: relative;
+   float: right;
+   color: #0844a4;
+   cursor: pointer;
+   text-decoration: none;
+   font-size: 20px;
+   top: 300px;
+   right: 20px;
+}
+
+.to-top4 a {
+   position: relative;
+   float: right;
+   color: #0844a4;
+   cursor: pointer;
+   text-decoration: none;
+   font-size: 20px;
+   top: 30px;
+   right: 20px;
+}

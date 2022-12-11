@@ -6,12 +6,148 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Document</title>
+   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-   <h1>Hello world!</h1>
-   <h2>Helllo!</h2>
-   <h3>Hello!</h3>
+   <div class="wrapper">
+      <div>
+      </div>
+      <div class="header">
+         <div class="acquaintance">
+            <h1>Let's get acquainted</h1>
+            <a class="acquaintance__item" href="#about">About me</a>
+         </div>
+      </div>
+      <div class="main">
+         <div class="about">
+            <a name="about"></a>
+            <div class="navigation">
+               <a class="navigation__item1" href="#about" name="about">About</a>
+               <a class="navigation__item2" href="#exp">Experience</a>
+               <a class="navigation__item3" href="#inter">Interest's</a>
+               <a class="navigation__item4" href="#end">Get in touch</a>
+            </div>
+            <h2>About</h2>
+            <div class="about__flex">
+               <img class="grid__img" src="/img/my_photo.jpg" alt="personal_photo">
+               <div class="grid">
+
+                  <div class="grid__item">Hello! My name is Mykyta Klochko,i'm 30 y.o. I have a great desire to become a
+                     professional specialist in the market of IT technologies. After studying the program with IT
+                     Generation, I am confident that I will have a high level of knowledge and practical skills to make
+                     my dreams come true.</div>
+                  <div class="grid__item1">
+                     <h3><img width="50px" src="/img/strength.svg" alt="check" class="svg"> My strengths</h3>
+                  </div>
+                  <div class="grid__item2">
+                     <h3><img width="40px" src="/img/goals.svg" alt="check" class="svg"> My goal's</h3>
+                  </div>
+                  <div class="grid__item3">
+                     <h3><img width="30px" src="/img/dreams.svg" alt="check" class="svg"> My dream's</h3>
+                  </div>
+                  <div class="grid__item4">Responsible, purposeful</div>
+                  <div class="grid__item5">Little overview</div>
+                  <div class="grid__item6">Little overview</div>
+               </div>
+            </div>
+            <div class="to-top">
+               <a href="#about">To top</a>
+            </div>
+         </div>
+         <div class="exp">
+
+            <h2 class="h2"><a name="exp">Experience</a></h2>
+            <div class="expirience__flex">
+               <div class="experience__border1">
+                  <div class="border1__text1">Describe your professional experience <p>not in FrontEnd</p>
+                  </div>
+                  <div class="border1__border"></div>
+                  <div class="border1__text2">terms</div>
+               </div>
+               <div class="grid__gistogramm">
+                  <div class="gistogramm"></div>
+                  <div>
+                     <ul>
+                        <li class="gistogramm__item1">CSS3</li>
+                        <li class="gistogramm__item2">HTML5</li>
+                        <li class="gistogramm__item3">PHP</li>
+                        <li class="gistogramm__item4">JS</li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="experience__border2">
+                  <div class="border2__text1">Describe your professional experience <p>in FrontEnd</p>
+                  </div>
+                  <div class="border2__border"></div>
+                  <div class="border2__text2">terms</div>
+               </div>
+            </div>
+            <div class="to-top2">
+               <a href="#about">To top</a>
+            </div>
+         </div>
+         <div class="inter">
+            <h2 class="h2"><a name="inter">Interest's</a></h2>
+            <div class="inter__grid">
+               <img class="img__video" src="/img/Free_Video_Assets.jpg" alt="video_editor">
+               <div class="inter__text1">
+                  <p>1) Video editing</p>
+                  <p>Just like to edit some video</p>
+               </div>
+
+               <img src="/img/football-700-350.jpg" alt="football" class="img__football">
+               <div class="inter__text2">
+                  <p>2) Football</p>
+                  <p>Very like to play a football in a free time
+                  </p>
+               </div>
+            </div>
+            <a href="#about" class="to-top3">To top</a>
+         </div>
+         <div class="getint">
+            <a name="getint"></a>
+            <h2 class="getint__h2">Get In Touch</h2>
+            <h3 class="getint__h3">Some information about why we need be in touch=)</h3>
+
+            <form>
+               <div class="getint__form">
+                  <input class="form__item1" type="text" cols="40" rows="10" id="text" placeholder=" Messege" required
+                     focus>
+                  <input class="form__item2" type="text" placeholder=" Email Address" required>
+                  <input class="form__item3" type="text" placeholder=" Full Name" required>
+                  <input class="form__item4" type="submit" id="send" value="Send">
+
+               </div>
+            </form>
+
+         </div>
+      </div>
+      <a name="end"></a>
+      <div class="footer">
+         <div class="footer__block">
+            <div class="block__img1">
+               <a href="https://t.me/nikifarok" target="_blank"><img src="/img/telegram.svg" alt="telegram_link"></a>
+            </div>
+            <div class="block__img2">
+
+               <a href="https://www.instagram.com/nikita.klochko1/" target="_blank"><img src="/img/instagram.svg"
+                     alt="instagram_link"></a>
+            </div>
+            <div class="block__img3">
+               <a href="https://www.facebook.com/profile.php?id=100002263112300" target="_blank"><img
+                     src="/img/facebook.svg" alt="facebook_link"></a>
+            </div>
+         </div>
+         <div class="company__img">
+            <img src="/img/sigma-software-logo.svg" alt="company_img">
+         </div>
+         <div class="to-top4">
+            <a href="#about">To top</a>
+         </div>
+      </div>
+
+   </div>
 </body>
 
 </html>
