@@ -10,12 +10,15 @@ body {
    font-weight: bold;
    background-color: rgba(230, 231, 231, 0.993);
    width: 100%;
-   min-height: 100vh;
+   height: 100%;
+   line-height: 1;
 
 }
 
 .wrapper {
-   display: block;
+   min-height: 100%;
+   display: flex;
+   flex-direction: column;
 
 }
 
@@ -59,7 +62,7 @@ h1 {
 }
 
 .main {
-   display: block;
+   flex: 1 1 auto;
 }
 
 .about {
