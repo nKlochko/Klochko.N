@@ -9,7 +9,7 @@ body {
    font-family: Helvetica, sans-serif;
    font-weight: bold;
    background-color: rgba(230, 231, 231, 0.993);
-   min-width: 1100px;
+   min-width: 1300px;
    height: 100%;
    line-height: 1;
 
@@ -416,6 +416,7 @@ ul {
    border-radius: 8px;
    grid-column: 1/2;
    justify-self: center;
+   min-width: 20%;
 }
 
 .inter__text1 {
