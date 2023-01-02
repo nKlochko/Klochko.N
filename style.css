@@ -188,7 +188,7 @@ h2 {
 
 .svg {
    position: relative;
-   top: 10px;
+   bottom: 10px;
 }
 
 .grid__item {
@@ -416,7 +416,6 @@ ul {
    border-radius: 8px;
    grid-column: 1/2;
    justify-self: center;
-   min-width: 20%;
 }
 
 .inter__text1 {
